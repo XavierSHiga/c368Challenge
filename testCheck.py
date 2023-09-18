@@ -17,3 +17,7 @@ for i in range(0, len(filesChecked)):
     else:
         output += "Failed\n"
 print(output)
+for x in range(0, len(testOutput)):
+    if testOutput != 0:
+        return 1
+
