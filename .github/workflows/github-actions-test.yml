@@ -13,5 +13,4 @@ jobs:
       - name: Install requirements
         run: pip install black
       - name: Run script
-        uses: psf/black@stable
         run: python testCheck.py
