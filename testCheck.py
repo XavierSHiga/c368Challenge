@@ -16,6 +16,4 @@ for i in range(0, len(filesChecked)):
         output += "Passed\n"
     else:
         output += "Failed\n"
-f = open('blackFormatCheck.txt', 'w')
-f.write(output)
-f.close()
+print(output)
