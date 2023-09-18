@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Check out the repository to the runner
         uses: actions/checkout@v3
+      - name: Install requirements
+        run: pip install black
       - name: Run script
         uses: psf/black@stable
         run: python testCheck.py
