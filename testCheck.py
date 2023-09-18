@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 files = os.listdir()
 testOutput = []
 filesChecked = []
@@ -19,5 +20,4 @@ for i in range(0, len(filesChecked)):
 print(output)
 for x in range(0, len(testOutput)):
     if testOutput != 0:
-        return 1
-
+        sys.exit(1)
