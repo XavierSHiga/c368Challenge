@@ -1,0 +1,6 @@
+Black formatting compatibility check:
+ File Name               Status
+---------------------------------------------------------------------------
+testPass.py:              Passed
+testFail.py:              Failed
+testCheck.py:              Failed
