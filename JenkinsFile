@@ -1,0 +1,10 @@
+pipeline {
+	agent any
+	stages {
+		stage('Black Formatting Check') {
+			steps {
+				sh 'python testCheck.py'
+			}
+		}
+	}
+}
