@@ -26,3 +26,4 @@ print(output)
 for x in range(0, len(testOutput)):
     if testOutput != 0:
         sys.exit(1)
+sys.exit()
