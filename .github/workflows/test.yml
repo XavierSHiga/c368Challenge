@@ -1,8 +1,7 @@
 name: test1
 on:
   push:
-    branches:
-      - test1
+    branches: [ test1 ]
 jobs:
   test-workflow:
     name: Testing
