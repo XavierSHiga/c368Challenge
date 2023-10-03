@@ -2,7 +2,7 @@ name: test2
 on:
   push:
     branches: 
-      - test1
+      - 'test1'
 jobs:
   test-workflow:
     name: Testing
